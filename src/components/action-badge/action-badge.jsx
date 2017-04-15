@@ -1,31 +1,45 @@
 import React from 'react';
 
-export default function(props) {
+export default function (props) {
     return (
-        <div style={props.containerStyle}>
+        <div className={props.badgeType}>
             <div>
-                <a href="*"><img alt={props.altTag} className={props.imgClass} src={props.imgSrc} style={props.imgStyle}/></a>
+                <a href="*"><img alt="icon" className={props.imgClass} src={props.imgSrc}/></a>
             </div>
             <div>
-                <h3>
-                <a style={props.titleStyle} href={props.link}>{props.linkedTitle}</a>
-                </h3>
+                    <a className={props.linkType} href={props.link}>{props.title}</a>
             </div>
             <div>
-                <h6>
-                    <small style={props.textStyle}>
-                        {props.text}
+                    <small className={props.textStyle}>
+                        {props.description}
                     </small>
-                </h6>
             </div>
         </div>
     )
-// My action badge should have a display or picture of some kind, 
-// similar to the action taking place
+    // My action badge should have a display or picture of some kind, 
+    // similar to the action taking place
 
-// My action badge needs a linked title
+    // My action badge needs a linked title
 
-// my action badge needs descriptive text for the action taking place
+    // my action badge needs descriptive text for the action taking place
 
-// I should be able to adapt the styling of my badge to different areas
+    // I should be able to adapt the styling of my badge to different areas
+
+
+    /*              <actionBadge 
+                    badgeType="action-badge"
+                    imgSrc="https://api.grumpycats.com/images/57258a762c68d71cefbf043c22a9f87d9fd5bf72/aHR0cCUzQSUyRiUyRmJldGFsbGljLmNvbSUyRnRodW1icyUyRjYwMHg2MDAlMkZwYWdlaW1hZ2VzJTJGRVZfMjAxNiUyRjM1MjYwX0dydW1weVBhcnR5RmFjZS5lcHM%3D"
+                    imgClass="img-circle action-badge-icon" 
+                    link="https://upload.wikimedia.org/wikipedia/commons/e/ee/Grumpy_Cat_by_Gage_Skidmore.jpg" 
+                    title="Click on this cat" 
+                    linkType="action-badge-link"
+                    description="Click on this cat for something awesome!" 
+                    textStyle="action-badge-text"/>
+
+                    // .not-active {
+                        pointer-events: none;
+                        cursor: default;
+                    } 
+                    disables link in linked text
+    */
 }
