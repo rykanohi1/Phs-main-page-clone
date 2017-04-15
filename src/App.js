@@ -1,7 +1,4 @@
-import React, {
-  Component
-} from 'react';
-import actionBadge from './components/action-badge/action-badge';
+import React, { Component } from 'react';
 import TransitionMenu from "./components/transition-menu/transition-menu";
 import './App.css';
 
@@ -24,9 +21,12 @@ const data = [{
 
 class App extends Component {
   render() {
-    return ( <div>
-      <TransitionMenu listOfSlots = {data}/> 
-      </div>
+    return ( 
+    <div>
+
+      <TransitionMenu listOfSlots={data}/>
+
+    </div>
     );
   }
 }
