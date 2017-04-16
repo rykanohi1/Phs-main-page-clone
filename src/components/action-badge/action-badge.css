@@ -1,0 +1,28 @@
+.basic-action {
+  color: #5e6364;
+  background-color: white;
+  border-radius: 5px;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  height: 150px;
+  line-height: 20px;
+  margin: 15px 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center; }
+  .basic-action div a {
+    background-color: transparent;
+    color: #5b7444;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24.29px; }
+  .basic-action div img {
+    height: 64px;
+    width: 57px; }
+
+.not-active {
+  pointer-events: none;
+  cursor: default; }

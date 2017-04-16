@@ -9,11 +9,12 @@ function menuSlots (props) {
                 return(
                         <div key={index}>
                             <ActionBadge 
-                            imgSrc={item.imgSrc} 
-                            title={item.title} 
-                            description={item.description}
-                            />
-                        </div>)
+                                imgSrc={item.imgSrc} 
+                                heading={item.heading} 
+                                description={item.description}
+                                badgeType={item.badgeType}/>
+                        </div>
+                        )
                     }
               )}
         </div>

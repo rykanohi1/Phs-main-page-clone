@@ -1,16 +1,17 @@
 import React from 'react';
+import './action-badge.scss';
 
 export default function (props) {
     return (
         <div className={props.badgeType}>
             <div>
-                <a href="*"><img alt="icon" className={props.imgClass} src={props.imgSrc}/></a>
+                <img alt="icon" src={props.imgSrc}/>
             </div>
             <div>
-                    <a className={props.linkType} href={props.link}>{props.title}</a>
+                    <a href={props.link}>{props.heading}</a>
             </div>
             <div>
-                    <small className={props.textStyle}>
+                    <small>
                         {props.description}
                     </small>
             </div>
