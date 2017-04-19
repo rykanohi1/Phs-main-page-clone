@@ -1,5 +1,5 @@
 import React from 'react';
-import './action-badge.scss';
+import './action-badge.css';
 
 export default function (props) {
     return (
@@ -10,11 +10,7 @@ export default function (props) {
             <div>
                     <a href={props.link}>{props.heading}</a>
             </div>
-            <div>
-                    <small>
-                        {props.description}
-                    </small>
-            </div>
+            <div>{props.description}</div>
         </div>
     )
     // My action badge should have a display or picture of some kind, 

@@ -11,11 +11,13 @@ $white: rgb(255, 255, 255);
     font-size: 14px;
     height: 150px;
     line-height: 20px;
-    margin: 15px 30px;
+    margin: 30px 15px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    width: 337px;
     div {
+        margin-top: 5px;
         a {
             background-color: $transparent;
             color: $faded-green;
@@ -30,6 +32,7 @@ $white: rgb(255, 255, 255);
            height: 64px;
            width: 57px;
        } 
+       
     }
 }
 

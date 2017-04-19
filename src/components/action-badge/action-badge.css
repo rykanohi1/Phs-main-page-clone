@@ -6,22 +6,28 @@
   font-size: 14px;
   height: 150px;
   line-height: 20px;
-  margin: 15px 30px;
+  margin: 30px 15px;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: center; }
-  .basic-action div a {
-    background-color: transparent;
-    color: #5b7444;
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    font-family: Ubuntu, Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24.29px; }
-  .basic-action div img {
-    height: 64px;
-    width: 57px; }
+  text-align: center;
+  width: 337px; }
+
+.basic-action div {
+  margin-top: 5px; }
+
+.basic-action div a {
+  background-color: transparent;
+  color: #5b7444;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24.29px; }
+
+.basic-action div img {
+  height: 64px;
+  width: 57px; }
 
 .not-active {
   pointer-events: none;
