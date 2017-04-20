@@ -11,23 +11,28 @@
   padding-right: 10px;
   text-align: center;
   width: 337px; }
+  .basic-action div {
+    margin-top: 5px; }
+    .basic-action div a {
+      background-color: transparent;
+      color: #5b7444;
+      text-decoration-line: underline;
+      text-transform: uppercase;
+      font-family: Ubuntu, Arial, sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 24.29px; }
+    .basic-action div img {
+      height: 64px;
+      width: 57px; }
 
-.basic-action div {
-  margin-top: 5px; }
-
-.basic-action div a {
-  background-color: transparent;
-  color: #5b7444;
-  text-decoration-line: underline;
-  text-transform: uppercase;
-  font-family: Ubuntu, Arial, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24.29px; }
-
-.basic-action div img {
-  height: 64px;
-  width: 57px; }
+.menu-slot {
+  color: white;
+  font-family: Montserrat, Arial;
+  background-color: #5b7444;
+  border-top: 1px solid black; }
+  .menu-slot div a {
+    text-transform: uppercase; }
 
 .not-active {
   pointer-events: none;

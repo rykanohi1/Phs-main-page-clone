@@ -1,10 +1,11 @@
-import React from "react"
-import ActionBadge from "../action-badge/action-badge.jsx"
+import React from "react";
+import ActionBadge from "../action-badge/action-badge.jsx";
+import "./transition-menu.css";
 
 function menuSlots (props) {
     const listOfSlots = props.listOfSlots;
     return(   
-        <div>
+        <div className="transition-menu">
             {listOfSlots.map((item, index) => {
                 return(
                         <div key={index}>

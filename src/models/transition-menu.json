@@ -1,0 +1,35 @@
+[{
+        "badgeType": "menu-slot",
+        "imgSrc": "/images/school-front.JPG",
+        "heading": "peninsula high",
+        "description": "Welcome to our website!"
+    },
+    {
+        "badgeType": "menu-slot",
+        "imgSrc": "/images/fiddler-poster.png",
+        "heading": "fiddler on the roof"
+    },
+    {
+        "badgeType": "menu-slot",
+        "imgSrc": "/images/phs-national-honor-society.PNG",
+        "heading": "national honor society"
+    },
+    {
+        "badgeType": "menu-slot",
+        "imgSrc": "/images/bookkeeper.PNG",
+        "heading": "bookkeeper",
+        "description": "Pay class fees, fines and order yearbook"
+    },
+    {
+        "badgeType": "menu-slot",
+        "imgSrc": "/images/transcripts.jpg",
+        "heading": "transcripts",
+        "description": "Get your Official Transcripts"
+    },
+    {
+        "badgeType": "menu-slot",
+        "imgSrc": "/images/phs-athletics.jpg",
+        "heading": "athletics",
+        "description": "Schedule, registration and fees"
+    }
+]

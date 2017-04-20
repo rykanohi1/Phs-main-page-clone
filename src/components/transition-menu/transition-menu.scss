@@ -1,0 +1,7 @@
+$black: rgb(0, 0, 0);
+
+.transition-menu {
+    & > div:last-child .action-badge {
+        border-bottom: 1px solid $black;
+    }
+}

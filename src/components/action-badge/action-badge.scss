@@ -2,6 +2,7 @@ $transparent: rgba(0,0,0,0);
 $faded-green: rgb(91, 116, 68);
 $faded-gray: rgb(94, 99, 100);
 $white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
 
 .basic-action {
     color: $faded-gray;
@@ -33,6 +34,18 @@ $white: rgb(255, 255, 255);
            width: 57px;
        } 
        
+    }
+}
+
+.menu-slot {
+    color: $white;
+    font-family: Montserrat, Arial;
+    background-color: $faded-green;
+    border-top: 1px solid $black;
+    div {
+        a {
+           text-transform: uppercase;                 
+        }
     }
 }
 
